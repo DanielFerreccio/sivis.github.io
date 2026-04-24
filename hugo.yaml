@@ -1,0 +1,42 @@
+baseURL: "https://sivis.github.io/"
+languageCode: es
+title: "SIVIS"
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+params:
+  author: SIVIS
+  description: "Forense digital, OSINT y ciberseguridad"
+  defaultTheme: dark
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "SIVIS"
+    Content: "Notas de forense digital, OSINT y ciberseguridad. Writeups, herramientas y aprendizaje continuo."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/sivis"
+
+menu:
+  main:
+    - name: Blog
+      url: /posts/
+      weight: 1
+    - name: Tags
+      url: /tags/
+      weight: 2
+    - name: Sobre mí
+      url: /about/
+      weight: 3
